@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/tailwind.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Yummy!</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header class="w-full relative">
+        <div class="fixed top-0 bg-white w-full mx-auto shadow z-10">
+            <nav class="flex w-full flex-row items-center container justify-between px-8 py-4 gap-12 mx-auto">
+                <h1 class=" text-3xl font-bold ">Yummy<span class=" text-red-700 ">.</span></h1>
+                <ul class="items-center justify-around flex-1 hidden lg:flex">
+                    <li class="text-lg font-semibold"><a href="#home">Home</a></li>
+                    <li class="text-lg font-semibold"><a href="#about">About</a></li>
+                    <li class="text-lg font-semibold"><a href="#menu">Menu</a></li>
+                    <li class="text-lg font-semibold"><a href="#events">Events</a></li>
+                    <li class="text-lg font-semibold"><a href="#chefs">Chefs</a></li>
+                    <li class="text-lg font-semibold"><a href="#gallery">Gallery</a></li>
+                    <li class="text-lg font-semibold"><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="flex items-center gap-4">
+                    <button class="bg-red-700 hover:bg-red-800 px-4 py-2 flex items-center rounded-full justify-center text-white">Book a
+                        Table</button>
+                    <button class="lg:hidden text-lg">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+
+        <section id="home" class="bg-gray-200 w-full">
+            <div
+                class="container px-8 pt-48 pb-16 flex flex-col-reverse lg:flex-row items-center justify-between gap-12 mx-auto min-h-screen">
+                <div class="w-full lg:w-2/4 flex flex-col gap-8">
+                    <h1 class=" text-6xl text-gray-800 ">Enjoy Your Healthy
+                        <br />
+                        Delicious Food
+                    </h1>
+                    <p class="text-base text-gray-600">
+                        Sed autem laudantium dolores. Voluptatem itaque ea <br />consequatur eveniet.Eum quas
+                        beatae cumque eum <br />
+                        quaerat.
+                    </p>
+                    <div class="flex flex-col lg:flex-row items-center gap-8">
+                        <button
+                            class="text-white text-lg w-full lg:w-auto bg-red-700 hover:bg-red-800 px-8 py-2 shadow-md shadow-red-500/50 rounded-full">Book
+                            a
+                            Table</button>
+                        <a hr
+                            class="text-lg justify-center w-full lg:w-auto flex items-center gap-4 hover:text-red-600 cursor-pointer">
+                            <i class="fa-regular fa-circle-play text-red-500 text-2xl"></i>
+                            <span>Watch Video</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="w-full  lg:w-4/12">
+                    <img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/hero-img.png" alt="header-logo"
+                        width="100%">
+                </div>
+            </div>
+        </section>
+        <main class="w-full">
+            <section id="about" class="bg-white w-full">
+                <div class="container px-8 py-20 flex flex-col items-center justify-between gap-12 mx-auto">
+                    <div class="text-center">
+                        <h3 class="text-base text-gray-400 mb-2">ABOUT US</h3>
+                        <h2 class="text-xl">LEARN MORE <span class="text-red-700">ABOUT US</span></h2>
+                    </div>
+                    <div class="flex flex-col lg:flex-row justify-between gap-12 items-stretch">
+                        <div
+                            class="relative w-full h-72 lg:h-auto lg:w-7/12 bg-center bg-cover bg-gray-100 lg:self-stretch ">
+                            <div class=" bg-center bg-cover h-full w-full lg:self-stretch z-10 flex flex-col items-center justify-center lg:justify-end"
+                                style="background-image: url(https://bootstrapmade.com/demo/templates/Yummy/assets/img/about.jpg); background-repeat: no-repeat;">
+                                <div class="bg-white w-5/6 p-4 text-center lg:mb-16">
+                                    <p class="text-2xl font-bold mb-2">Book a Table</p>
+                                    <p class="text-2xl font-bold text-red-700">
+                                        +1 5589 55488 55
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full lg:w-5/12 flex flex-col gap-8">
+                            <em class="text-base">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua.
+                            </em>
+
+                            <ul class="text-base flex flex-col gap-2">
+                                <li class="ml-6 flex items-baseline">
+                                    <div class="mr-2 flex items-center">
+                                        <i class="fa-solid fa-check text-red-500"></i>
+                                        <i class="fa-solid fa-check -ml-3 text-red-500"></i>
+                                    </div>
+                                    Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </li>
+                                <li class="ml-6 flex items-baseline">
+                                    <div class="mr-2 flex items-center">
+                                        <i class="fa-solid fa-check text-red-500"></i>
+                                        <i class="fa-solid fa-check -ml-3 text-red-500"></i>
+                                    </div>
+                                    Duis aute irure dolor in reprehenderit in voluptate velit.
+                                </li>
+                                <li class="ml-6 flex items-baseline">
+                                    <div class="mr-2 flex items-center">
+                                        <i class="fa-solid fa-check text-red-500"></i>
+                                        <i class="fa-solid fa-check -ml-3 text-red-500"></i>
+                                    </div>
+                                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
+                                    pariatur.
+                                </li>
+                            </ul>
+
+                            <p class="text-base">
+                                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                sint occaecat cupidatat non proident
+                            </p>
+
+                            <div class="relative w-full flex items-center justify-center flex-col h-full">
+                                <img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/about-2.jpg"
+                                    alt="about-img" width="100%" />
+                                <a target="_blank" href="https://www.youtube.com/watch?v=LXb3EKWsInQ&feature=emb_title"
+                                    class="absolute cursor-pointer">
+                                    <div
+                                        class=" transition-all absolut inset-y-0 inset-x-0  w-12 h-12 lg:w-24 lg:h-24 rounded-full bg-red-700 animate-ping hover:bg-red-800">
+                                    </div>
+                                    <div
+                                        class=" transition-all absolute inset-y-0 inset-x-0  w-12 h-12 lg:w-24 lg:h-24 rounded-full flex justify-center items-center hover:bg-red-800 bg-red-700">
+                                        <i class="fa-solid fa-play text-white text-xl lg:text-3xl"></i>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+            </section>
+        </main>
+    </header>
+
+</body>
+
+</html>
